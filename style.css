@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    text-emphasis-color: black;
+    font-family:"Segoe Print" ;
+    padding: 20px;
+ }
+
+ .menu{
+    display: flex;
+    justify-content: space-evenly;
+    text-emphasis-color: black;
+    font-family:"Segoe Print" ;
+    background-color: blanchedalmond;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+ }
+
+ .body{
+     background: "bg.jpg" ;
+     background-color: coral;
+     font-family:"Segoe Print" ;
+     margin: 0px;
+     padding: 20px;
+ }
+
+ .origamis{
+     background-color: cornsilk;
+     border: black ;
+     border-width: 10px; 
+     font-family:"Segoe Print" ;
+
+     display: flex;
+    flex-wrap: wrap;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+
+   padding: 40px;
+   
+  
+ }
+
+ .origami{
+    border: black double;
+    border-width: 10px; 
+    margin: 5px;
+    padding: 20px;
+   }
